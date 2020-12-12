@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    color: white;
+    background-color: rgb(68, 68, 68);
+}
+#section1{
+    background-image:url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#section1::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+#topdiv{
+    z-index: 3;
+    justify-self: start;
+    align-self: start;
+    position: relative;
+    top: -18vh;
+    left:2.75vw;
+}
+#topdiv img{
+    padding: 0px;
+}
+#section1 #divsect1{
+    margin-left: 30%;
+    margin-right: 30%;
+    z-index: 2;
+}
+#section1 h1{
+    font-size: 3.25rem;
+    
+}
+#section1 h2{
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin-top: 1.5%;
+    
+}
+#divsect2{
+    z-index: 2;
+    margin-top: 2%;
+}
+#section1 h4{
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 2.5%;
+}
+#divsect2 form{
+    margin-top: 3%;
+    width: 1000px;
+}
+input{
+    height: 1.20rem;
+    font-size: 2.5rem;
+    padding: 1.5%;
+    margin: 0px;
+}
+label{
+    background-color: red;
+    font-size: 1.35rem;
+    padding: 1.5% 2%;
+    margin: 0px;
+    position: relative;
+    top: -5.85px;
+    left:-6px
+}
+#section2{
+    margin-top: 0.5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section2 div{
+    padding: 10%;
+    padding-right: 5%;
+    padding-top:8%;
+}
+#section2 div h1{
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+#section2 div p{
+    font-size: 1.80rem;
+}
+#section2 img{
+    justify-self:flex-end;
+    margin-right: 5%;
+}
+#section3{
+    margin-top: 0.5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section3 div{
+    padding: 10%;
+    padding-left: 8%;
+    padding-top:0%;
+}
+#section3 div h1{
+    font-size: 3rem;
+    margin-bottom: 4%;
+    margin-top: 25%;
+}
+#section3 div p{
+    font-size: 1.80rem;
+}
+#section3 img{
+    justify-self:flex-start;
+    margin-left: 7%;
+}
+#section4{
+    margin-top: 0.5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section4 div{
+    padding: 10%;
+    padding-right: 5%;
+    padding-top:8%;
+}
+#section4 div h1{
+    font-size: 3rem;
+    margin-bottom: 4%;
+}
+#section4 div p{
+    font-size: 1.80rem;
+}
+#section4 img{
+    justify-self:flex-end;
+    margin-right: 5%;
+}
+#section5{
+    margin-top: 0.5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#section5 #faq123{
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-top:3%;
+    padding-bottom: 0px;
+}
+#section5 h1{
+    font-size: 3rem;
+    margin-bottom: 4%;
+    margin-top: 5%;
+}
+#section5 div p{
+    font-size: 1.40rem;
+}
+#FAQ{
+    padding: 2%;
+} 
+#DIV123{
+    background-color: rgb(49, 49, 49);
+    font-size:2rem;
+    padding: 2% 4%;
+    width: 55vw;
+    margin-top: 1.5%;
+}
+#divforms{
+    margin-bottom: 100px;
+}
+#divsect24 p{
+    padding-left: 27.5vw;
+    margin: 20px;
+}
+.divsect41{
+    margin-left: 350px;
+}
+#section6{
+    margin-top: 0.5%;
+    background-color: black;
+    display: flex;
+    
+    font-size: 1.20rem;
+    color: gray;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    margin: 50px;
+    line-height: 2.5rem;
+}
+#ul123{
+    margin-left: 100px;
+}
+#call{
+    position: relative;
+    top:80px;
+    left:200px;
+    margin-bottom: 0px;
+}
+#list{
+    display: flex;
+    padding:100px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    
+}
+
+/*#div1{
+    display: grid;
+  grid: 150px / auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+    
+    
+}
+#div1>div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+*/
